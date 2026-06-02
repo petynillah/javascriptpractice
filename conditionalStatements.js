@@ -51,9 +51,9 @@ let day= 3;
  }
  break;
  
- default:
-    console.log("invalid day")};
-
+ default:{
+    console.log("invalid day")};          //if none dfined.then default is the thing
+ }
 
     //loop
     //for loop
@@ -61,6 +61,16 @@ let day= 3;
     for(let n=1; n<=5; n++){
         console.log(n)
     };
+
+    let cars=["Volvo","BMW","Vitz","Rav4"];
+    let txt=" ";
+
+    for(let i= 0; i<cars.length; i++){
+
+     ;
+     console.log(txt += cars[i]+" ")
+    }
+
  console.log(" while loop");
     //while loop
     let x=1;
@@ -94,4 +104,4 @@ console.log("break");
             continue;
         
         console.log(t);
-    };
+    }
